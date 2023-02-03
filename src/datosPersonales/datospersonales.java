@@ -1,22 +1,18 @@
-package holaMundo;
+package datosPersonales;
 
 import javax.swing.JOptionPane;
 
-public class HolaMundo {
-	
-	public static void main(String[] args) {
+public class datospersonales {
+	public static void main (String[]args) {
 		String nombre = JOptionPane.showInputDialog(null, "Ingrese su nombre");
 		String apellido = JOptionPane.showInputDialog(null, "Ingrese su apellido");
 		int edad = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese su edad"));
-		String Residencia = JOptionPane.showInputDialog(null, "Ingrese su lugar de residencia");
-		
-		JOptionPane.showMessageDialog(null, nombre + " " + apellido);
+		String residencia = JOptionPane.showInputDialog(null, "Ingrese su residencia");
 		
 		System.out.println(nombre);
 		System.out.println(apellido);
 		System.out.println(edad);
-		System.out.println(Residencia);
-		
+		System.out.println(residencia);
 	}
 
 }
