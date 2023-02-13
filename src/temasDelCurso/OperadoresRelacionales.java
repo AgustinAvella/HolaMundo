@@ -11,6 +11,7 @@ public class OperadoresRelacionales {
 		int b = 20;
 		
 		System.out.println("A es mayor que b ? = " + (a > b));
+		int valor = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor: "));
 		
 		if() {
 			System.out.println("A es mayor que b");
@@ -20,7 +21,6 @@ public class OperadoresRelacionales {
 			
 		}
 		
-		int valor = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor: "));
 		
 
 	}
