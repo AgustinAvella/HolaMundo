@@ -1,4 +1,4 @@
-package temasDelCurso;
+package tareas;
 
 import javax.swing.JOptionPane;
 
