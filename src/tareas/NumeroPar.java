@@ -1,4 +1,4 @@
-package numeroPar;
+package tareas;
 
 import javax.swing.JOptionPane;
 

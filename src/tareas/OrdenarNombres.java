@@ -1,4 +1,4 @@
-package ordenarNombres;
+package tareas;
 
 import java.util.Scanner;
 

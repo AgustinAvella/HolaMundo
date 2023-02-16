@@ -1,4 +1,4 @@
-package datosPersonales;
+package temasDelCurso;
 
 import javax.swing.JOptionPane;
 
